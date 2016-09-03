@@ -1,4 +1,4 @@
-print(46 +37 +38)
-print(2016-1996)
-print(15/3)
-print(2**6)
+def minutes_in_seconds(seconds) :
+    #return the number of seconds in a given number of minutes_in_seconds
+    minute = seconds * 60
+    return seconds
