@@ -28,7 +28,7 @@
 #mile_4 = 21.36
 #start_time = 6.52 
 
-start_time = date.time(hour = 6, minute = 52)
-elapse_time = date.time(hour = 0, minute = 37, second = 66)
+start_time = datetime(hour = 6, minute = 52)
+elapse_time = datetime(hour = 0, minute = 37, second = 66)
 finish_time = start_time + elapse_time
 print(finish_time)
