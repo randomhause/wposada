@@ -24,8 +24,11 @@
 #print(message)
  
 #problem3
-mile_1_and_last = 16.3
-mile_4 = 21.36
-start_time = 6.52 
+#mile_1_and_last = 16.3
+#mile_4 = 21.36
+#start_time = 6.52 
 
-datetime.delta = hours
+start_time = date.time(hour = 6, minute = 52)
+elapse_time = date.time(hour = 0, minute = 37, second = 66)
+finish_time = start_time + elapse_time
+print(finish_time)
