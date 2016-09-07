@@ -28,3 +28,4 @@ mile_1_and_last = 16.3
 mile_4 = 21.36
 start_time = 6.52 
 
+datetime.delta = hours
