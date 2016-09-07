@@ -24,11 +24,27 @@
 #print(message)
  
 #problem3
-#mile_1_and_last = 16.3
-#mile_4 = 21.36
-#start_time = 6.52 
+seconds = 1
+minutes = 60 * seconds
+hours = 60 * minutes
 
-start_time = datetime(hour = 6, minute = 52)
-elapse_time = datetime(hour = 0, minute = 37, second = 66)
-finish_time = start_time + elapse_time
-print(finish_time)
+time_left_house = 6 * hours + 52 * minutes
+miles_run_easy_pace = 2 * (8 * minutes + 15 * seconds)
+miles_run_fast_pace = 3 * (7 *minutes + 12 * seconds)
+#output in seconds
+
+total_time_run = miles_run_easy_pace + miles_run_fast_pace + time_left_house
+
+hours2 = total_time_run // hours
+#hour output
+
+part_hour = total_time_run % hours
+minutes2 = part_hour // minutes
+seconds2 = part_hour % minutes
+
+print('Total time run: {}, Hours: {}, Minutes: {}, Seconds: {}'.format(total_time_run, hours2, minutes2, seconds2))
+
+
+
+
+#proble4
