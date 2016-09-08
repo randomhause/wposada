@@ -38,3 +38,4 @@ PercInc = inc * 100
 message = 'Percent Increase: %.1f%%' % PercInc
 print(message)
 
+#worked with classmates
