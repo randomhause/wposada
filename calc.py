@@ -40,20 +40,19 @@
     #    print(message) 
 
 #Session04_Excercise_1_9/13
-def quadratic(): 
-    import math
-    from math import sqrt
+import cmath #call module 
 a = float(input('Enter a: '))
 b = float(input('Enter b: '))
 c = float(input('Enter c: '))
 d = (b**2) - (4*a*c) #discriminant
 
 #find Positive & Negative 
-pos = (-b+math.sqrt(d))/(2*a)
-neg = (-b-math.sqrt(d))/(2*a)
+pos = (-b+ cmath.sqrt(d))/(2*a)
+neg = (-b- cmath.sqrt(d))/(2*a)
 
-print('Solving for the quadratic equation: {0}, {1}'.format(pos,neg))
+print('Solving for the quadratic equation: {0} and {1}'.format(pos,neg))
 
+#Worked with a group.
 
 
 
