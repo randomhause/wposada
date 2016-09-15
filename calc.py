@@ -40,6 +40,12 @@
     #    print(message) 
 
 #Session04_Excercise_1_9/13
+
+'''
+def quadratic_equation(a, b, c):
+    ...
+'''
+
 import cmath #call module 
 a = float(input('Enter a: '))
 b = float(input('Enter b: '))
