@@ -3,7 +3,6 @@ import turtle
 import math
 tpen = turtle.Turtle()
 tpen.pensize(4)
-tpen.hideturtle()
 
 print(tpen)
 

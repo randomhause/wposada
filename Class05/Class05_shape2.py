@@ -1,65 +1,12 @@
+#Worked with Teresa, Hunter, Dunca & Rose. 
 import turtle
 import math
 jerry = turtle.Turtle()
 jerry.pensize(4)
 
+
 print(jerry)
 
-
-#Excercise_3_shape1_triangles and circles
-print(tpen)
-'''
-#shape one
-def shape_1(twotris)
-def twotris(t):
-    t.lt(30)
-    t.fd(200)
-    t.rt(120)
-    t.fd(200)
-    t.rt(120)
-    t.fd(400)
-    t.lt(120)
-    t.fd(200)
-    t.lt(120)
-    t.fd(200)
-
-twotris(tpen)
-
-tpen.lt(60)
-twotris(tpen)
-
-tpen.fd(200)
-tpen.lt(91)
-tpen.circle(200)
-tpen.lt(90)
-tpen.fd(100)
-tpen.circle(55)
-
-tpen.fd(100)
-tpen.lt(30)
-
-tpen.fd(100)
-tpen.circle(55)
-
-tpen.lt(180)
-tpen.fd(100)
-
-tpen.rt(270)
-tpen.fd(100)
-tpen.circle(55)
-
-tpen.lt(180)
-tpen.fd(100)
-
-tpen.rt(270)
-tpen.fd(100)
-tpen.circle(55)
-
-turtle.mainloop()
-''''
-
-#shape2_flower
-def shape_2()
 def polyline(t, n, length, angle):
     for i in range(n):
         t.fd(length)
