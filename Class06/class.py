@@ -30,7 +30,7 @@ def ex_3():
         print('kid')
 
 #Exercise_1: BMI Calculator
-def cat_bmi(): 
+def cal_bmi(): 
     if bmi < 18.5:
         print('You are underweight')
     elif bmi >= 18.5 and bmi <= 24.0:
@@ -41,21 +41,18 @@ def cat_bmi():
         print('You are obese')
 
 def bmi():
-    units = input("USA or Metric?")
+    units = input("USA or Metric? ")
+    weight = int(input("weight: "))
+    height = int(input("height: "))
 
-
-    if units == USA
+    if units == "USA":
         bmi = 703 * (weight / (height ** height))
+    if units == "Metric":
+        bmi = (weight / (height ** height))
+    return bmi
 
-
-under_weight = < 18.5
-normal_weight = range(18.5, 24.9)
-over_weight = range(25, 29.9)
-obesity = 30
-
-
-
-
+bmi = bmi()
+print(cal_bmi())
 
 
 #print(ex_1())
