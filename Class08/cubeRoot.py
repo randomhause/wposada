@@ -23,4 +23,19 @@ else:
     print('Cube root of ' + str(x) + ' is ' + str(ans))
 
 
+#cubeRootBisection
+cube = 54
+epsilon = 0.01
+num_guesses = 0 
+high = cube 
+guess = (high + low) / 2.0
 
+while abs(guess**2 - x) >= epsilon and guess <= x:
+    num_guesses += 1
+    if guess**2 < x:
+        high = guess
+
+
+
+print('num_guesses =', num_guesses)
+print(guess, 'is close to the cube root of', cube)
