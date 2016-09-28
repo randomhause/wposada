@@ -11,8 +11,3 @@ else:
         ans = -ans
     print('Cube root of ' + str(x) + ' is ' + str(ans))
 
-#Exercise01
-def excersize_1():
-    suffixes = ['J','K','L','M','N','O','P','Q']
-    for x in suffixes:
-        print(x+'ack')
