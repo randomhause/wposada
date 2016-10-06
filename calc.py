@@ -56,7 +56,7 @@ def quadratic(a, b, c):
         return pos, neg
  
 
-#Worked with a group.
+
 
 
 
