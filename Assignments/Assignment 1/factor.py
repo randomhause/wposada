@@ -1,23 +1,11 @@
-#Question 1
-""" my_factor: returns list containing the factors of the integer.
-        (1) This function only will check the numbers up through the square root of the interger. 
-            Because any factor greater than the square root will have the corresponding factor that is 
-            less than the quare root.
-        (2) if the interger is evenly divided by the number that's being checked, it'll add that number
-            as well as the interger that's divided by that number """
-    
-from math import sqrt
+#Question 1: Re-do
 
-i = float(input('Input interger to be factored:'))
+def factor(n):
+    for i in range(1, n + 1):
+        if n % i == 0: #% used for divsor and remainder
+            print(i)
 
-def my_factor(x):
-    
-    fac_list = []
-    x = int(x)
-    for num in range(1, int(sqrt(x) + 1)):
-        if x % num ==0: 
-            fac_list.append(num)
-            fac_list.append(int(x / num))
-    return fac_list
+number = int(input('Enter any integer to find out all of its factors:'))
+# i wrote int instead of float because it can only a number not a decimal
 
-print(my_factor(i))
+factor(number)
