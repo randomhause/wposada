@@ -1,3 +1,10 @@
+#global variables specify fo rinterger strings 
+#on the function call it gloabl for string and numbers. or else defined as local. 
+
+
+
+
+
 def fib(n):
     global numFibCalls
     numFibCalls += 1
