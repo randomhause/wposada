@@ -1,5 +1,6 @@
 import my_math
 
-print("this is my_game:")
+print("this is my_game.")
 
-print(my_math.square(17))
+n = int(input())
+print(my_math.square(n))
