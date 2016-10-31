@@ -1,6 +1,9 @@
 import random
 import string
 
+
+
+
 def process_file(filename, skip_header):
     """Makes a histogram that contains the words from a file.
 
@@ -24,6 +27,14 @@ def process_file(filename, skip_header):
         # INSERT CODE BELOW
         for word in line.split():  #line.split() splits words
             word = word.lower()
+          
+
+
+
+    for letter in word:
+        if letter == " ' " or " / " :
+            letter == " "
+          
         
         # update the histogram
         hist[word] = hist.get(word, 0) + 1 
@@ -52,7 +63,6 @@ def total_words(hist):
 def different_words(hist):
     """Returns the number of different words in a histogram."""
     return len(hist)
-
 
 def most_common(hist):
     """Makes a list of word-freq pairs in descending order of frequency.

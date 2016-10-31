@@ -9,7 +9,9 @@ hip_pop.append(PyLyrics.getLyrics('Afrika Bambaataa','Planet Rock'))
 hip_pop.append(PyLyrics.getLyrics('Geto Boys','Mind Playing Tricks on Me'))
 hip_pop.append(PyLyrics.getLyrics('Snoop Dogg','Nuthin But a G Thang'))
 
+
 #Unable to create file from the following
+'''
 country =[PyLyrics.getLyrics('Johnny Cash', 'I Walk the Line')]
 country.append(PyLyrics.getLyrics('Patsy Cline', 'Crazy'))
 country.append(PyLyrics.getLyrics('Gretchen Wilson','Redneck Woman'))
@@ -49,7 +51,7 @@ randb.append(PyLyrics.getLyrics('James Brown', 'Please, Please, Please'))
 randb.append(PyLyrics.getLyrics('Smokey Robinson', 'Shop Around'))
 randb.append(PyLyrics.getLyrics('Luther Vandross', 'Here and Now'))
 #randb.append(PyLyrics.getLyrics('B.B King', 'You Upset Me Baby'))
-
+'''
 
 
 
