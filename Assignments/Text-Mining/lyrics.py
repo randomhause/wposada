@@ -26,7 +26,13 @@ country =
     country.append(PyLyrics.getLyrics('Waylon Jennings and Willie Nelson', 'Mammas, Dont Let Your Babies Grow Up to Be Cowboys'))
 
 motown =
-    [PyLyrics.getLyrics()]
+    [PyLyrics.getLyrics('The Temptations', 'My Girl')]
+    motown.append(PyLyrics.getLyrics('Marvin Gaye', 'Whats Going On'))
+    motown.append(PyLyrics.getLyrics('Marvin Gaye', 'I Heard it Through the Grapevine'))
+    motown.append(PyLyrics.getLyrics('The Temptations', 'Papa was a Rolling Stone'))
+    motown.append(PyLyrics.getLyrics('Smokey Robinson and the Miracles', 'Tracks of My Tears'))
+    motown.append(PyLyrics.getLyrics('Marvin Gaye', 'Whats Going On'))
+
 
 #pop = 
 
