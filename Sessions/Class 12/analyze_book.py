@@ -9,7 +9,8 @@ def process_file(filename, skip_header):
     skip_header: boolean, whether to skip the Gutenberg header
 
     returns: map from each word to the number of times it appears.
-    """    hist = {}    fp = open(filename)
+    """    hist = {}    
+    fp = open(filename)
 
     # if skip_header:
     #     skip_gutenberg_header(fp)
@@ -19,7 +20,7 @@ def process_file(filename, skip_header):
             break
         # INSERT CODE BELOW
         for word in line.split():  #line.split() splits words
-            word = word.lower()
+            word = word.lower()re
         
         # update the histogram
         hist[word] = hist.get(word, 0) + 1 
